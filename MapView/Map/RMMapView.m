@@ -2467,6 +2467,7 @@
 // From http://stackoverflow.com/questions/610193/calculating-pixel-size-on-an-iphone
 #define kiPhone3MillimeteresPerPixel 0.1558282
 #define kiPhone4MillimetersPerPixel (0.0779 * 2.0)
+#define kiPhone6PlusMillimetersPerPixel (0.06334 * 3.0)
 
 #define iPad1MillimetersPerPixel 0.1924
 #define iPad3MillimetersPerPixel (0.09621 * 2.0)
@@ -2479,7 +2480,12 @@
     BOOL deviceHasRetinaDisplay = (_screenScale > 1.0);
 
     if (deviceHasRetinaDisplay)
-        iphoneMillimetersPerPixel = (deviceIsIPhone ? kiPhone4MillimetersPerPixel : iPad3MillimetersPerPixel);
+    {
+        if (_screenScale == 3.0)
+            iphoneMillimetersPerPixel = kiPhone6PlusMillimetersPerPixel;
+        else
+            iphoneMillimetersPerPixel = (deviceIsIPhone ? kiPhone4MillimetersPerPixel : iPad3MillimetersPerPixel);
+    }
     else
         iphoneMillimetersPerPixel = (deviceIsIPhone ? kiPhone3MillimeteresPerPixel : iPad1MillimetersPerPixel);
 

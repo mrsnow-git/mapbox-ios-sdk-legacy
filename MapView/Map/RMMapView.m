@@ -3028,8 +3028,8 @@
             if (annotation.layer == nil)
                 continue;
 
-            if ([annotation.layer isKindOfClass:[RMMarker class]])
-                annotation.layer.transform = _annotationTransform;
+            //if ([annotation.layer isKindOfClass:[RMMarker class]])
+            //    annotation.layer.transform = _annotationTransform;
 
             if ( ! [_visibleAnnotations containsObject:annotation])
             {

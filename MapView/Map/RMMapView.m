@@ -3008,6 +3008,16 @@
                                                          withProjectedClusterSize:RMProjectedSizeMake(self.clusterAreaSize.width * _metersPerPixel, self.clusterAreaSize.height * _metersPerPixel)
                                                     andProjectedClusterMarkerSize:RMProjectedSizeMake(self.clusterMarkerSize.width * _metersPerPixel, self.clusterMarkerSize.height * _metersPerPixel)
                                                                 findGravityCenter:self.positionClusterMarkersAtTheGravityCenter];
+
+        for (RMAnnotation *annotation in self.annotations)
+        {
+            if ([annotation.annotationType isEqualToString:@"pointer"] ||
+                [annotation.annotationType isEqualToString:@"radius"])
+            {
+                [(NSMutableArray*)annotationsToCorrect addObject:annotation];
+            }
+        }
+        
         NSMutableSet *previousVisibleAnnotations = [[NSMutableSet alloc] initWithSet:_visibleAnnotations];
 
         for (RMAnnotation *annotation in annotationsToCorrect)

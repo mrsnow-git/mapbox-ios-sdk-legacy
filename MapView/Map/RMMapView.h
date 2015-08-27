@@ -197,6 +197,7 @@ typedef enum : NSUInteger {
 /** Move the map center by a given delta. 
 *   @param delta A `CGSize` by which to move the map center. */
 - (void)moveBy:(CGSize)delta;
+- (void)moveBy:(CGSize)delta animated:(BOOL)animated;
 
 #pragma mark - Zoom
 

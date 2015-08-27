@@ -1032,6 +1032,22 @@
     [self completeMoveEventAfterDelay:0];
 }
 
+- (void)moveBy:(CGSize)delta animated:(BOOL)animated
+{
+    [self registerMoveEventByUser:NO];
+
+    CGPoint contentOffset = _mapScrollView.contentOffset;
+    contentOffset.x += delta.width;
+    contentOffset.y += delta.height;
+    [_mapScrollView setContentOffset:contentOffset animated:animated];
+
+    if ( ! animated)
+        [self completeMoveEventAfterDelay:0];
+
+    [self correctPositionOfAllAnnotations];
+}
+
+
 #pragma mark -
 #pragma mark Zoom
 

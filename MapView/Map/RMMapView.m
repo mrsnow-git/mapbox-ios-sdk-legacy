@@ -3034,7 +3034,9 @@
 
         for (RMAnnotation *annotation in previousVisibleAnnotations)
         {
-            if ( ! annotation.isUserLocationAnnotation)
+            if (!annotation.isUserLocationAnnotation &&
+                ![annotation.annotationType isEqualToString:@"pointer"] &&
+                ![annotation.annotationType isEqualToString:@"radius"])
             {
                 if (_delegateHasWillHideLayerForAnnotation)
                     [_delegate mapView:self willHideLayerForAnnotation:annotation];

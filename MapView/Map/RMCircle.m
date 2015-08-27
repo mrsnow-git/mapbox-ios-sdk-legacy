@@ -51,11 +51,19 @@
 
 - (id)initWithView:(RMMapView *)aMapView radiusInMeters:(CGFloat)newRadiusInMeters
 {
+    return [self initWithView:aMapView radiusInMeters:newRadiusInMeters lineDashPattern:nil];
+}
+
+- (id)initWithView:(RMMapView *)aMapView radiusInMeters:(CGFloat)newRadiusInMeters lineDashPattern:(NSArray *)lineDashPattern
+{
     if (!(self = [super init]))
         return nil;
 
     shapeLayer = [CAShapeLayer new];
     [self addSublayer:shapeLayer];
+
+    if (lineDashPattern)
+        shapeLayer.lineDashPattern = lineDashPattern;
 
     mapView = aMapView;
     radiusInMeters = newRadiusInMeters;

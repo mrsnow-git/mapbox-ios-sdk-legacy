@@ -27,12 +27,12 @@
 
 #import <Foundation/Foundation.h>
 #import "RMFoundation.h"
-#import "RMMapLayer.h"
+#import "RMMarker.h"
 
 @class RMMapView;
 
 /** An RMCircle is used to represent a perfect circle shape on a map view. An RMCircle changes visible size in response to map zooms in order to consistently represent coverage of the same geographic area. */
-@interface RMCircle : RMMapLayer
+@interface RMCircle : RMMarker
 {
 	RMMapView *mapView;
 	CAShapeLayer *shapeLayer;
@@ -72,5 +72,10 @@
 *   @param aMapView The map view the shape should be drawn on.
 *   @param newRadiusInMeters The radius of the circle object in projected meters. Regardless of map zoom, the circle will change visible size to continously represent this radius on the map. */
 - (id)initWithView:(RMMapView *)aMapView radiusInMeters:(CGFloat)newRadiusInMeters;
+/** Initializes and returns a newly allocated RMCircle for the specified map view.
+ *   @param aMapView The map view the shape should be drawn on.
+ *   @param newRadiusInMeters The radius of the circle object in projected meters. Regardless of map zoom, the circle will change visible size to continously represent this radius on the map.
+ *   @param lineDashPattern The line dash pattern of circle object line, if nul - will be used solid line. */
+- (id)initWithView:(RMMapView *)aMapView radiusInMeters:(CGFloat)newRadiusInMeters lineDashPattern:(NSArray *)lineDashPattern;
 
 @end

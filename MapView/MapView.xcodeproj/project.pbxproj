@@ -81,6 +81,20 @@
 		B8F3FC610EA2B382004D8F85 /* RMMapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F3FC600EA2B382004D8F85 /* RMMapLayer.m */; };
 		B8F3FC640EA2E792004D8F85 /* RMMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F3FC620EA2E792004D8F85 /* RMMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8F3FC650EA2E792004D8F85 /* RMMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F3FC630EA2E792004D8F85 /* RMMarker.m */; };
+		C169A5DC1B90E4840034163C /* RM2GisMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C169A5CE1B90E4840034163C /* RM2GisMapSource.h */; };
+		C169A5DD1B90E4840034163C /* RM2GisMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C169A5CF1B90E4840034163C /* RM2GisMapSource.m */; };
+		C169A5DE1B90E4840034163C /* RMGoogleMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C169A5D01B90E4840034163C /* RMGoogleMapSource.h */; };
+		C169A5DF1B90E4840034163C /* RMGoogleMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C169A5D11B90E4840034163C /* RMGoogleMapSource.m */; };
+		C169A5E01B90E4840034163C /* RMOpenAerialMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C169A5D21B90E4840034163C /* RMOpenAerialMapSource.h */; };
+		C169A5E11B90E4840034163C /* RMOpenAerialMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C169A5D31B90E4840034163C /* RMOpenAerialMapSource.m */; };
+		C169A5E21B90E4840034163C /* RMSputnikMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C169A5D41B90E4840034163C /* RMSputnikMapSource.h */; };
+		C169A5E31B90E4840034163C /* RMSputnikMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C169A5D51B90E4840034163C /* RMSputnikMapSource.m */; };
+		C169A5E41B90E4840034163C /* RMYahooMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C169A5D61B90E4840034163C /* RMYahooMapSource.h */; };
+		C169A5E51B90E4840034163C /* RMYahooMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C169A5D71B90E4840034163C /* RMYahooMapSource.m */; };
+		C169A5E61B90E4840034163C /* RMYandexMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C169A5D81B90E4840034163C /* RMYandexMapSource.h */; };
+		C169A5E71B90E4840034163C /* RMYandexMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C169A5D91B90E4840034163C /* RMYandexMapSource.m */; };
+		C169A5E81B90E4840034163C /* ScatStreetMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = C169A5DA1B90E4840034163C /* ScatStreetMapSource.h */; };
+		C169A5E91B90E4840034163C /* ScatStreetMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C169A5DB1B90E4840034163C /* ScatStreetMapSource.m */; };
 		D1437B36122869E400888DAE /* RMDBMapSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D1437B32122869E400888DAE /* RMDBMapSource.m */; };
 		D1437B37122869E400888DAE /* RMDBMapSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D1437B33122869E400888DAE /* RMDBMapSource.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DD07A23817F3AF9800E420B2 /* HeadingAngleMaskSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = DD07A23217F3AF9800E420B2 /* HeadingAngleMaskSmall.png */; };
@@ -264,6 +278,20 @@
 		B8F3FC600EA2B382004D8F85 /* RMMapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMapLayer.m; sourceTree = "<group>"; };
 		B8F3FC620EA2E792004D8F85 /* RMMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMarker.h; sourceTree = "<group>"; };
 		B8F3FC630EA2E792004D8F85 /* RMMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMarker.m; sourceTree = "<group>"; };
+		C169A5CE1B90E4840034163C /* RM2GisMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RM2GisMapSource.h; sourceTree = "<group>"; };
+		C169A5CF1B90E4840034163C /* RM2GisMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RM2GisMapSource.m; sourceTree = "<group>"; };
+		C169A5D01B90E4840034163C /* RMGoogleMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMGoogleMapSource.h; sourceTree = "<group>"; };
+		C169A5D11B90E4840034163C /* RMGoogleMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMGoogleMapSource.m; sourceTree = "<group>"; };
+		C169A5D21B90E4840034163C /* RMOpenAerialMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMOpenAerialMapSource.h; sourceTree = "<group>"; };
+		C169A5D31B90E4840034163C /* RMOpenAerialMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMOpenAerialMapSource.m; sourceTree = "<group>"; };
+		C169A5D41B90E4840034163C /* RMSputnikMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMSputnikMapSource.h; sourceTree = "<group>"; };
+		C169A5D51B90E4840034163C /* RMSputnikMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMSputnikMapSource.m; sourceTree = "<group>"; };
+		C169A5D61B90E4840034163C /* RMYahooMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMYahooMapSource.h; sourceTree = "<group>"; };
+		C169A5D71B90E4840034163C /* RMYahooMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMYahooMapSource.m; sourceTree = "<group>"; };
+		C169A5D81B90E4840034163C /* RMYandexMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMYandexMapSource.h; sourceTree = "<group>"; };
+		C169A5D91B90E4840034163C /* RMYandexMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMYandexMapSource.m; sourceTree = "<group>"; };
+		C169A5DA1B90E4840034163C /* ScatStreetMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScatStreetMapSource.h; sourceTree = "<group>"; };
+		C169A5DB1B90E4840034163C /* ScatStreetMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScatStreetMapSource.m; sourceTree = "<group>"; };
 		D1437B32122869E400888DAE /* RMDBMapSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDBMapSource.m; sourceTree = "<group>"; };
 		D1437B33122869E400888DAE /* RMDBMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDBMapSource.h; sourceTree = "<group>"; };
 		DD07A23217F3AF9800E420B2 /* HeadingAngleMaskSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeadingAngleMaskSmall.png; path = Map/Resources/HeadingAngleMaskSmall.png; sourceTree = "<group>"; };
@@ -435,6 +463,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				C169A5CD1B90E4840034163C /* MapSourcesExternal */,
 				B8C9740D0E8A196E007D16AD /* Map */,
 				DD932BC2165C294100D69D49 /* Externals */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -602,6 +631,28 @@
 			name = "Coordinate Systems";
 			sourceTree = "<group>";
 		};
+		C169A5CD1B90E4840034163C /* MapSourcesExternal */ = {
+			isa = PBXGroup;
+			children = (
+				C169A5CE1B90E4840034163C /* RM2GisMapSource.h */,
+				C169A5CF1B90E4840034163C /* RM2GisMapSource.m */,
+				C169A5D01B90E4840034163C /* RMGoogleMapSource.h */,
+				C169A5D11B90E4840034163C /* RMGoogleMapSource.m */,
+				C169A5D21B90E4840034163C /* RMOpenAerialMapSource.h */,
+				C169A5D31B90E4840034163C /* RMOpenAerialMapSource.m */,
+				C169A5D41B90E4840034163C /* RMSputnikMapSource.h */,
+				C169A5D51B90E4840034163C /* RMSputnikMapSource.m */,
+				C169A5D61B90E4840034163C /* RMYahooMapSource.h */,
+				C169A5D71B90E4840034163C /* RMYahooMapSource.m */,
+				C169A5D81B90E4840034163C /* RMYandexMapSource.h */,
+				C169A5D91B90E4840034163C /* RMYandexMapSource.m */,
+				C169A5DA1B90E4840034163C /* ScatStreetMapSource.h */,
+				C169A5DB1B90E4840034163C /* ScatStreetMapSource.m */,
+			);
+			name = MapSourcesExternal;
+			path = ../MapSourcesExternal;
+			sourceTree = "<group>";
+		};
 		DD3BEF71159134E0007892D8 /* Attribution */ = {
 			isa = PBXGroup;
 			children = (
@@ -738,6 +789,7 @@
 			files = (
 				B8C974250E8A19B2007D16AD /* RMOpenStreetMapSource.h in Headers */,
 				B8C974230E8A19B2007D16AD /* RMTileCache.h in Headers */,
+				C169A5E61B90E4840034163C /* RMYandexMapSource.h in Headers */,
 				B8C9742B0E8A19B2007D16AD /* RMMemoryCache.h in Headers */,
 				B8C9742F0E8A19B2007D16AD /* RMMapLayer.h in Headers */,
 				DD56B9511961E23F00706C67 /* FMDatabaseAdditions.h in Headers */,
@@ -751,21 +803,25 @@
 				25757F4F1291C8640083D504 /* RMCircle.h in Headers */,
 				16EC85D2133CA6C300219947 /* RMAbstractMercatorTileSource.h in Headers */,
 				16EC85D4133CA6C300219947 /* RMAbstractWebMapSource.h in Headers */,
+				C169A5E01B90E4840034163C /* RMOpenAerialMapSource.h in Headers */,
 				DD56B9581961E23F00706C67 /* FMResultSet.h in Headers */,
 				16EC85D6133CA6C300219947 /* RMCacheObject.h in Headers */,
 				160EEDAF13D41DEC007C5501 /* RMAnnotation.h in Headers */,
 				DD2B375514CF8197008DE8CB /* RMMBTilesSource.h in Headers */,
 				DD56B9551961E23F00706C67 /* FMDatabaseQueue.h in Headers */,
 				DD98B6FA14D76B930092882F /* RMMapboxSource.h in Headers */,
+				C169A5E41B90E4840034163C /* RMYahooMapSource.h in Headers */,
 				1607499514E120A100D535F5 /* RMGenericMapSource.h in Headers */,
 				DDC4BED5152E3BD700089409 /* RMInteractiveSource.h in Headers */,
 				DD8FD7541559E4A40044D96F /* RMUserLocation.h in Headers */,
 				DDA6B8BD155CAB67003DB5D8 /* RMUserTrackingBarButtonItem.h in Headers */,
 				16F98C961590CFF000FF90CE /* RMShape.h in Headers */,
 				DD4BE198161CE296003EF677 /* Mapbox.h in Headers */,
+				C169A5E81B90E4840034163C /* ScatStreetMapSource.h in Headers */,
 				16E5A63A15E531F200C92A5A /* RMCompositeSource.h in Headers */,
 				DD7C7E38164C894F0021CCA5 /* RMStaticMapView.h in Headers */,
 				DDE357E71651F570001DB842 /* RMPointAnnotation.h in Headers */,
+				C169A5DC1B90E4840034163C /* RM2GisMapSource.h in Headers */,
 				DDE357F0165223A3001DB842 /* RMShapeAnnotation.h in Headers */,
 				DDE357F416522661001DB842 /* RMPolylineAnnotation.h in Headers */,
 				DDE357F816522CD8001DB842 /* RMPolygonAnnotation.h in Headers */,
@@ -788,6 +844,7 @@
 				1609AF8E14068B09008344B7 /* RMMapOverlayView.h in Headers */,
 				16128CF5148D295300C23C0E /* RMOpenSeaMapSource.h in Headers */,
 				DD8CDB4A14E0507100B73EB9 /* RMMapQuestOSMSource.h in Headers */,
+				C169A5E21B90E4840034163C /* RMSputnikMapSource.h in Headers */,
 				16FFF2CB14E3DBF700A170EC /* RMMapQuestOpenAerialSource.h in Headers */,
 				DD3BEF7915913C55007892D8 /* RMAttributionViewController.h in Headers */,
 				16F3581B15864135003A3AD9 /* RMMapScrollView.h in Headers */,
@@ -797,6 +854,7 @@
 				1656665515A1DF7900EF3DC7 /* RMCoordinateGridSource.h in Headers */,
 				DD5FA1EB15E2B020004EB6C5 /* RMLoadingTileView.h in Headers */,
 				DD41960116250ED40049E6BA /* RMTileCacheDownloadOperation.h in Headers */,
+				C169A5DE1B90E4840034163C /* RMGoogleMapSource.h in Headers */,
 				DD4195C9162356900049E6BA /* RMBingSource.h in Headers */,
 				DD56B9571961E23F00706C67 /* FMDB.h in Headers */,
 				DD1E3C6E161F954F004FC649 /* SMCalloutView.h in Headers */,
@@ -926,8 +984,10 @@
 				B8C974410E8A19B2007D16AD /* RMOpenStreetMapSource.m in Sources */,
 				B8C974420E8A19B2007D16AD /* RMMemoryCache.m in Sources */,
 				B8C974430E8A19B2007D16AD /* RMPixel.c in Sources */,
+				C169A5E71B90E4840034163C /* RMYandexMapSource.m in Sources */,
 				DD56B9541961E23F00706C67 /* FMDatabasePool.m in Sources */,
 				B8C974440E8A19B2007D16AD /* RMFractalTileProjection.m in Sources */,
+				C169A5E31B90E4840034163C /* RMSputnikMapSource.m in Sources */,
 				B8C974480E8A19B2007D16AD /* RMTileCache.m in Sources */,
 				DD63176417D15EB5008CA79B /* RMCircleAnnotation.m in Sources */,
 				B8C9744A0E8A19B2007D16AD /* RMProjection.m in Sources */,
@@ -940,13 +1000,17 @@
 				23A0AAE90EB90A99003A4521 /* RMFoundation.c in Sources */,
 				D1437B36122869E400888DAE /* RMDBMapSource.m in Sources */,
 				25757F501291C8640083D504 /* RMCircle.m in Sources */,
+				C169A5E51B90E4840034163C /* RMYahooMapSource.m in Sources */,
+				C169A5E11B90E4840034163C /* RMOpenAerialMapSource.m in Sources */,
 				16EC85D3133CA6C300219947 /* RMAbstractMercatorTileSource.m in Sources */,
 				16EC85D5133CA6C300219947 /* RMAbstractWebMapSource.m in Sources */,
+				C169A5DD1B90E4840034163C /* RM2GisMapSource.m in Sources */,
 				16EC85D7133CA6C300219947 /* RMCacheObject.m in Sources */,
 				160EEDB013D41DEC007C5501 /* RMAnnotation.m in Sources */,
 				1606C9FF13D86BA400547581 /* RMOpenCycleMapSource.m in Sources */,
 				16FAB66513E03D55002F4E1C /* RMQuadTree.m in Sources */,
 				160E535813FBDB48004F82F9 /* RMMapTiledLayerView.m in Sources */,
+				C169A5E91B90E4840034163C /* ScatStreetMapSource.m in Sources */,
 				1609AF8F14068B09008344B7 /* RMMapOverlayView.m in Sources */,
 				DD56B9561961E23F00706C67 /* FMDatabaseQueue.m in Sources */,
 				16128CF6148D295300C23C0E /* RMOpenSeaMapSource.m in Sources */,
@@ -973,6 +1037,7 @@
 				DD4195CA162356900049E6BA /* RMBingSource.m in Sources */,
 				DD1E3C6F161F954F004FC649 /* SMCalloutView.m in Sources */,
 				DD7C7E39164C894F0021CCA5 /* RMStaticMapView.m in Sources */,
+				C169A5DF1B90E4840034163C /* RMGoogleMapSource.m in Sources */,
 				DDE357E81651F570001DB842 /* RMPointAnnotation.m in Sources */,
 				DDE357F1165223A3001DB842 /* RMShapeAnnotation.m in Sources */,
 				DDE357F516522661001DB842 /* RMPolylineAnnotation.m in Sources */,

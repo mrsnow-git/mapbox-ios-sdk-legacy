@@ -1,6 +1,19 @@
 Changelog
 ---------
 
+### 1.6.2
+#### August 28, 2015
+
+  - Add more tile map sources - including yandex (for moscow), 2gis, sputnik and some more. 
+  - Make RMCircle object to be inherited from RMMarker, to enable set circle line as dashed pattern. 
+  - Add moveBy:animated: method for RMMapView. 
+  - Add iPhone6plus millimeters per pixel usage in scaleDenominator method. 
+  - Exclude some annotations types from hiding on screen out - it allow some type of objects to be more stable - for example for pointers it allow to make smooth move animation if put pointer to new point, and for radius it allow to always show the border line if radius is very big. 
+  - Add pointer and radius annotation types to correction - it allow for these annotations not to "jumping" on small map moves and scales.
+  - Commented - this code overlap any transformations made for any annotations and set some default annotation (!!!) it's subject to discuss this code interested only for rotatable maps, to adjust annotations to user but if we already make some transforms - we need to store it somewhere and use with this transform together and use this transfor value on annotation with initial transformation init. (!!!) for not rotatable maps it's not necessary
+  - Improvements to CocoaPods spec file. 
+
+
 ### 1.6.1
 #### April 25, 2015
 
